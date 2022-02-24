@@ -107,7 +107,7 @@ table{
     transition: 0.5s;
 }
 .table tr:hover{
-    background-color:#0683d6 ;
+    background-color:#fefae0 ;
 }
 
 .table tr:hover td > a{
@@ -217,19 +217,23 @@ table{
 
 #update_user .form-group .btn,
 #add_user .form-group .btn{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+    letter-spacing: 0.17rem;
     width: 100%;
     padding: .9em 1em;
-    background-color:#16db93; 
+    background-color:#ced4da; 
     border: none;
     font-family: 'PT Sans', sans-serif;
     font-size: 1em;
     cursor: pointer;
     border-radius: .2em;
     margin: .5em 0;
+    transition: 0.5s;
 }
 
 #update_user .form-group .btn:hover,
 #add_user .form-group .btn:hover{
-    background-color: var(--dark);
-    color: var(--border);
+    background-color: #343a40;
+    color: white;
 }
